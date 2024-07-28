@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+html {
+    font-size: 16px;
+    font-family: 'Segoe UI';
+    background-color: #1F1F1F;
+    color: #DFEBED;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  padding: 10px 0 0 0;
+}
+
+h3 {
+  font-size: 20px;
+  padding: 0 0 0 20px;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+a {
+  color: #BB89BB;
+  text-decoration: none;
+}
+
+.inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.header{ 
+  background: #1F1F1F;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header-inner{
+  display: flex;
+  align-items: center;
+}
+
+.header-title a{
+  color:#DFEBED;
+}
+
+.header-nav{
+  margin-left: auto;
+}
+
+.header-nav-list{
+  display: flex;
+  list-style-type: none;
+}
+
+.header-nav-item:not(:first-child){
+  margin-left: 40px;
+}
+
+.header-nav-item-link{
+  display: block;
+  color: #DFEBED;
+  height: 80px;
+  line-height: 80px;
+}
+
+main{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 40px;
+  padding-top: 120px;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
